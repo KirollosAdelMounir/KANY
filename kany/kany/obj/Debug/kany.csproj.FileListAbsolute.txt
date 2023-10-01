@@ -1,0 +1,316 @@
+C:\Users\pc\source\repos\kany\kany\bin\kany.dll.config
+C:\Users\pc\source\repos\kany\kany\bin\kany.dll
+C:\Users\pc\source\repos\kany\kany\bin\kany.pdb
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\csc.exe
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\csc.exe.config
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\csc.rsp
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\csi.exe
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\csi.exe.config
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\csi.rsp
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\System.AppContext.dll
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\System.Console.dll
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\System.IO.Compression.dll
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\System.IO.Pipes.dll
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\System.Security.Claims.dll
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\System.ValueTuple.dll
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\System.Xml.XPath.dll
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\vbc.exe
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\vbc.exe.config
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\vbc.rsp
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\VBCSCompiler.exe
+C:\Users\pc\source\repos\kany\kany\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\pc\source\repos\kany\kany\bin\Antlr3.Runtime.dll
+C:\Users\pc\source\repos\kany\kany\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\pc\source\repos\kany\kany\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\pc\source\repos\kany\kany\bin\Newtonsoft.Json.dll
+C:\Users\pc\source\repos\kany\kany\bin\System.Web.Helpers.dll
+C:\Users\pc\source\repos\kany\kany\bin\System.Web.Mvc.dll
+C:\Users\pc\source\repos\kany\kany\bin\System.Web.Optimization.dll
+C:\Users\pc\source\repos\kany\kany\bin\System.Web.Razor.dll
+C:\Users\pc\source\repos\kany\kany\bin\System.Web.WebPages.Deployment.dll
+C:\Users\pc\source\repos\kany\kany\bin\System.Web.WebPages.dll
+C:\Users\pc\source\repos\kany\kany\bin\System.Web.WebPages.Razor.dll
+C:\Users\pc\source\repos\kany\kany\bin\WebGrease.dll
+C:\Users\pc\source\repos\kany\kany\bin\System.Web.Helpers.xml
+C:\Users\pc\source\repos\kany\kany\bin\System.Web.Mvc.xml
+C:\Users\pc\source\repos\kany\kany\bin\System.Web.Optimization.xml
+C:\Users\pc\source\repos\kany\kany\bin\System.Web.Razor.xml
+C:\Users\pc\source\repos\kany\kany\bin\System.Web.WebPages.xml
+C:\Users\pc\source\repos\kany\kany\bin\System.Web.WebPages.Deployment.xml
+C:\Users\pc\source\repos\kany\kany\bin\System.Web.WebPages.Razor.xml
+C:\Users\pc\source\repos\kany\kany\bin\Newtonsoft.Json.xml
+C:\Users\pc\source\repos\kany\kany\bin\Antlr3.Runtime.pdb
+C:\Users\pc\source\repos\kany\kany\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\pc\source\repos\kany\kany\obj\Debug\kany.csprojAssemblyReference.cache
+C:\Users\pc\source\repos\kany\kany\obj\Debug\kany.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\kany\kany\obj\Debug\kany.csproj.CopyComplete
+C:\Users\pc\source\repos\kany\kany\obj\Debug\kany.dll
+C:\Users\pc\source\repos\kany\kany\obj\Debug\kany.pdb
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\kany.dll.config
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\kany.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\kany.pdb
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\csc.exe
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\csc.exe.config
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\csc.rsp
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\csi.exe
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\csi.exe.config
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\csi.rsp
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\System.AppContext.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\System.Console.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\System.IO.Compression.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\System.IO.Pipes.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\System.Security.Claims.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\System.ValueTuple.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\System.Xml.XPath.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\vbc.exe
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\vbc.exe.config
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\vbc.rsp
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\VBCSCompiler.exe
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\Antlr3.Runtime.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\Newtonsoft.Json.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\System.Web.Helpers.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\System.Web.Mvc.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\System.Web.Optimization.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\System.Web.Razor.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\System.Web.WebPages.Deployment.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\System.Web.WebPages.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\System.Web.WebPages.Razor.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\WebGrease.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\System.Web.Helpers.xml
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\System.Web.Mvc.xml
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\System.Web.Optimization.xml
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\System.Web.Razor.xml
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\System.Web.WebPages.xml
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\System.Web.WebPages.Deployment.xml
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\System.Web.WebPages.Razor.xml
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\Newtonsoft.Json.xml
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\Antlr3.Runtime.pdb
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\obj\Debug\kany.csproj.CoreCompileInputs.cache
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\obj\Debug\kany.csproj.CopyComplete
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\obj\Debug\kany.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\obj\Debug\kany.pdb
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\EntityFramework.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\EntityFramework.SqlServer.dll
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\EntityFramework.xml
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\bin\EntityFramework.SqlServer.xml
+C:\Users\kokoe\OneDrive\Desktop\IA\kany\kany\obj\Debug\kany.csproj.AssemblyReference.cache
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\kany.dll.config
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\kany.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\kany.pdb
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\csc.exe
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\csc.exe.config
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\csc.rsp
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\csi.exe
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\csi.exe.config
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\csi.rsp
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\System.AppContext.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\System.Console.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\System.IO.Compression.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\System.IO.Pipes.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\System.Security.Claims.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\System.ValueTuple.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\System.Xml.XPath.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\vbc.exe
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\vbc.exe.config
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\vbc.rsp
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\VBCSCompiler.exe
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\Antlr3.Runtime.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\EntityFramework.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\EntityFramework.SqlServer.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\Newtonsoft.Json.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\System.Web.Helpers.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\System.Web.Mvc.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\System.Web.Optimization.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\System.Web.Razor.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\System.Web.WebPages.Deployment.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\System.Web.WebPages.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\System.Web.WebPages.Razor.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\WebGrease.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\EntityFramework.xml
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\EntityFramework.SqlServer.xml
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\System.Web.Helpers.xml
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\System.Web.Mvc.xml
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\System.Web.Optimization.xml
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\System.Web.Razor.xml
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\System.Web.WebPages.xml
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\System.Web.WebPages.Deployment.xml
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\System.Web.WebPages.Razor.xml
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\Newtonsoft.Json.xml
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\Antlr3.Runtime.pdb
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\obj\Debug\kany.csproj.AssemblyReference.cache
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\obj\Debug\kany.csproj.CoreCompileInputs.cache
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\obj\Debug\kany.csproj.CopyComplete
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\obj\Debug\kany.dll
+C:\Users\kokoe\OneDrive\Desktop\IA - Copy\kany\kany\obj\Debug\kany.pdb
+D:\Source Codes\IA - Copy\kany\kany\bin\kany.dll.config
+D:\Source Codes\IA - Copy\kany\kany\bin\kany.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\kany.pdb
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\csc.exe
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\csc.exe.config
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\csc.rsp
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\csi.exe
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\csi.exe.config
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\csi.rsp
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\System.AppContext.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\System.Collections.Immutable.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\System.Console.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\System.IO.Compression.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\System.IO.FileSystem.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\System.IO.Pipes.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\System.Reflection.Metadata.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\System.Security.AccessControl.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\System.Security.Claims.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\System.ValueTuple.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\System.Xml.XPath.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\vbc.exe
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\vbc.exe.config
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\vbc.rsp
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\VBCSCompiler.exe
+D:\Source Codes\IA - Copy\kany\kany\bin\roslyn\VBCSCompiler.exe.config
+D:\Source Codes\IA - Copy\kany\kany\bin\Antlr3.Runtime.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\EntityFramework.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\EntityFramework.SqlServer.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\Microsoft.Web.Infrastructure.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\Newtonsoft.Json.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\System.Web.Helpers.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\System.Web.Mvc.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\System.Web.Optimization.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\System.Web.Razor.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\System.Web.WebPages.Deployment.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\System.Web.WebPages.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\System.Web.WebPages.Razor.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\WebGrease.dll
+D:\Source Codes\IA - Copy\kany\kany\bin\EntityFramework.xml
+D:\Source Codes\IA - Copy\kany\kany\bin\EntityFramework.SqlServer.xml
+D:\Source Codes\IA - Copy\kany\kany\bin\System.Web.Helpers.xml
+D:\Source Codes\IA - Copy\kany\kany\bin\System.Web.Mvc.xml
+D:\Source Codes\IA - Copy\kany\kany\bin\System.Web.Optimization.xml
+D:\Source Codes\IA - Copy\kany\kany\bin\System.Web.Razor.xml
+D:\Source Codes\IA - Copy\kany\kany\bin\System.Web.WebPages.xml
+D:\Source Codes\IA - Copy\kany\kany\bin\System.Web.WebPages.Deployment.xml
+D:\Source Codes\IA - Copy\kany\kany\bin\System.Web.WebPages.Razor.xml
+D:\Source Codes\IA - Copy\kany\kany\bin\Newtonsoft.Json.xml
+D:\Source Codes\IA - Copy\kany\kany\bin\Antlr3.Runtime.pdb
+D:\Source Codes\IA - Copy\kany\kany\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Source Codes\IA - Copy\kany\kany\obj\Debug\kany.csproj.AssemblyReference.cache
+D:\Source Codes\IA - Copy\kany\kany\obj\Debug\kany.csproj.CoreCompileInputs.cache
+D:\Source Codes\IA - Copy\kany\kany\obj\Debug\kany.csproj.CopyComplete
+D:\Source Codes\IA - Copy\kany\kany\obj\Debug\kany.dll
+D:\Source Codes\IA - Copy\kany\kany\obj\Debug\kany.pdb

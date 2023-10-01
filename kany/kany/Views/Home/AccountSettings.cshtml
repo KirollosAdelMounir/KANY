@@ -1,0 +1,55 @@
+﻿@model kany.Models.UserModel
+<link rel="stylesheet" href="~/Content/main.css">
+
+
+<!DOCTYPE html>
+<!-- _Coding By Ahmed Ibrahim-->
+<!-- _Coding By Abd El Rahman Mostafa-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- _ICONSET CSS -->
+    <link rel="stylesheet"
+          href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
+    <!--CSS FILE-->
+    <link rel="stylesheet" href="~/Content/Style.css" />
+
+    <title>Login,Registraion Form</title>
+    <style>
+        body {
+            display: block;
+        }
+    </style>
+    <body>
+        <div class="divL">
+            <a href="#"><button><span>Change Email</span></button></a> <br>
+            <a href="#"><button><span>Change Password</span></button></a> <br>
+            @using (Html.BeginForm("ChangeProfilePicture", "Home", null, FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {<label>Change Profile Picture :</label>
+                <div class="form-group">
+                    <div class="col-md-10">
+                        <input id="file" name="file" type="file" class="text-danger" />
+                    </div>
+                </div>
+                <button type="submit"><span>Save Photo</span></button><br><br>
+            }
+            @if (Session["username"] != null && Session["username"].ToString() == "kirollos")
+            {
+                <button>@Html.ActionLink("Add Actor", "AddActor", "Home")</button><br>
+                <button>@Html.ActionLink("Add Director", "AddDirector", "Home")</button><br>
+                <button>@Html.ActionLink("Manage Actors", "ManageActors", "Home")</button><br>
+                <button>@Html.ActionLink("Manage Directors", "ManageDirectors", "Home")</button><br>
+                <button>@Html.ActionLink("Show Movies", "ShowMovies", "Home")</button><br>
+            }
+            <button><span>@Html.ActionLink("Delete your account", "deletemyaccount", "Home")</span></button> <br>
+        </div>
+
+    </body>
+
+
+
+

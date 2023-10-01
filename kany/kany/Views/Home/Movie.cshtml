@@ -1,0 +1,136 @@
+﻿
+@{
+    ViewBag.Title = "MovieAdmin";
+}
+
+<link rel="stylesheet" href="~/Content/main.css">
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="~/Image/icon.jfif" type="image/png">
+    <title>Movie</title>
+
+    </head>
+<body>
+    <!--
+      - main container
+    -->
+    <div class="container">
+
+       
+
+        <main>
+
+            <div class="card-head">
+
+                <img src="~/Image/movies/red-notice.jpg" alt="" class="img-movie" style="margin-top: 50px;">
+
+
+                <div class="card-overlay">
+
+
+                    <div class="favorite-box button">
+
+                        <button type="box">Update</button>
+                        <button type="box">Delete Movie</button>
+
+                    </div>
+
+
+
+                    <h3 class="card-title" style="font-weight: 700;font-size: xx-large; ">Red Notice</h3>
+
+                    <div class="rating">
+                        <ion-icon name="star-outline"></ion-icon>
+                        <span>6.4</span>
+                    </div>
+
+                </div>
+
+                <div class="card-body">
+                    <div class="card-info">
+                        <span class="genre">Action/Comedy</span>
+                        <span class="year">2021</span>
+                    </div>
+
+                </div>
+
+                <section class="cast">
+                    <h2 class="cast-heading">All cast</h2>
+
+
+                    <div class="movies-grid">
+                        <div class="movie-card">
+                            <div class="cast-head">
+                                <a href="directorAdmin.html">
+                                    <img src="~/Image/cast/director1.jfif" alt="" class="card-img">
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Rawson Marshall</h3>
+                                <div class="card-info">
+                                    <span class="job">director</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="movie-card">
+                            <div class="cast-head">
+                                <img src="~/Image/cast/cast1.jfif" alt="" class="card-img">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Dwayne Johnson</h3>
+                                <div class="card-info">
+                                    <span class="job">actor</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="movie-card">
+                            <div class="cast-head">
+                                <img src="~/Image/cast/cast2.jpg" alt="" class="card-img">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Gal Gadot</h3>
+                                <div class="card-info">
+                                    <span class="job">actor</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="movie-card">
+                            <div class="cast-head">
+                                <a href="actorAdmin.html">
+                                    <img src="~/Image/cast/cast3.jpg" alt="" class="card-img">
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">ryan reynolds</h3>
+                                <div class="card-info">
+                                    <span class="job">actor</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="comment-box">
+                        <h1>comments</h1>
+                        <form action="#">
+                            <input type="text" name="full_name" placeholder="full name...">
+                            <textarea name="comment" placeholder="type your comment..."></textarea>
+                            <button type="submit">submit comment</button>
+                        </form>
+
+
+                    </div>
+        </main>
+
+    </div>
+
+
+
+</body>
+</html>
+

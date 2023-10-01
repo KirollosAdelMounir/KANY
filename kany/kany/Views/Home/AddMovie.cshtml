@@ -1,0 +1,96 @@
+﻿@{
+    ViewBag.Title = "AddMovie";
+}
+
+<link rel="stylesheet" href="~/Content/main.css">
+<!DOCTYPE html>
+<!--=== Coding by Ahmed Ibrahim-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="~/Content/nMoviestyle.css">
+
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Responsive Regisration Form </title>
+    <style>
+        body {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>Movie Information</header>
+
+        <form action="AddNewMovie" method="post">
+            <div class="form first">
+                <div class="actor detailsl">
+                    <span class="title">Movie Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="Enter Movie name" required name="MovieName" id="MovieName">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Date of release</label>
+                            <input type="date" placeholder="Enter release date" required name="ReleaseDate" id="ReleaseDate" >
+                        </div>
+
+                        <div class="input-field">
+                            <label>MPAA</label>
+                            <input type="text" placeholder="Enter MPAA" required name="MPAA" id="MPAA">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Duration</label>
+                            <input type="number" placeholder="Enter Duration" required name="Duration" id="Duration">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Category</label>
+                            <select required name="Category" id="Category">
+                                <option disabled selected>Select category</option>
+                                <option>Action</option>
+                                <option>Comedy</option>
+                                <option>Thriller</option>
+                                <option>Horror</option>
+                                <option>Adventure</option>
+                                <option>Animated</option>
+                                <option>Crime</option>
+                                <option>Sci-Fi</option>
+                            </select>
+                        </div>
+                        <div class="input-field">
+                            <label>Rating</label>
+                            <input type="text" placeholder="Enter your Rating" required name="Rating" id="Rating">
+                        </div>
+                        <div class="input-field">
+                            <label>Actor ID</label>
+                            <input type="text" placeholder="Enter Actor ID" required name="ActorID" id="ActorID">
+                        </div>
+                        <div class="input-field">
+                            <label>Director ID</label>
+                            <input type="text" placeholder="Enter Director ID" required name="DirectorID" id="DirectorID">
+                        </div>
+
+                        <button class="sumbit">
+                            <span class="btnText">Add Movie</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                    </div>
+                </div>
+        </form>
+    </div>
+
+    <script src="nMoviescript.js"></script>
+</body>
+</html>

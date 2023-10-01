@@ -1,0 +1,133 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+}
+
+<link rel="stylesheet" href="~/Content/main.css">
+
+
+<!DOCTYPE html>
+<!-- _Coding By Ahmed Ibrahim-->
+<!-- _Coding By Abd El Rahman Mostafa-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- _ICONSET CSS -->
+    <link rel="stylesheet"
+          href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
+    <!--CSS FILE-->
+    <link rel="stylesheet" href="~/Content/Style.css" />
+
+    <title>Login,Registraion Form</title>
+    <style>
+        body {
+            display:block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="forms">
+            <div class="form login">
+                <span class="title">Login</span>
+
+                <form action="Verify" method="post">
+                    <div class="input-field">
+                        <input type="text" placeholder="Enter your Username" required name="username" id="username" />
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password"
+                               class="password"
+                               placeholder="Enter your Password"
+                               required name="password"
+                               id="password"/>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="sigCheck" />
+                            <label for="sigCheck" class="text">Remember me</label>
+                        </div>
+
+                        <a href="#" class="text">Forget Password?</a>
+                    </div>
+
+                    <div class="input-field button">
+                        <input type="submit" value="Login" />
+                    </div>
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">
+                        Not a member?
+                        <a href="#" class="text signup-link">Signup now</a>
+                    </span>
+                </div>
+            </div>
+            <!-- Registraion Form -->
+            <div class="form signup">
+                <span class="title">Registraion</span>
+
+                <form action="registerMember" method="post">
+                    <div class="input-field">
+                        <input type="text" placeholder="Enter your Username" required name="Username" id="Username" />
+                        <i class="uil uil-user"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="email" placeholder="Enter your Email" required name="Email" id="Email" />
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password"
+                               class="password"
+                               placeholder="Create a Password"
+                               required />
+                        <i class="uil uil-lock icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password"
+                               class="password"
+                               placeholder="Confirm a Password"
+                               required
+                               name="Password"
+                               id="Password"/>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="sigCheck" />
+                            <label for="sigCheck" class="text">Remember me</label>
+                        </div>
+
+                        <a href="#" class="text">Forget Password?</a>
+                    </div>
+
+                    <div class="input-field button">
+                        <input type="submit" value="Login" />
+                    </div>
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">
+                        Not a member?
+                        <a href="#" class="text login-link">Signup now</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/Scripts/script.js"></script>
+</body>
+</html>
+
+
+

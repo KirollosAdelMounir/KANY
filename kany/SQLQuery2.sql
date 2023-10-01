@@ -1,0 +1,1 @@
+﻿Select * from Movies , Actor , Director where MovieName Like '%peter%' or ActorName Like '%peter%'or DirectorName Like '%peter%'

@@ -1,0 +1,110 @@
+﻿@model kany.Models.MovieModel
+
+@{
+    ViewBag.Title = "AddComment";
+}
+<link rel="stylesheet" href="~/Content/main.css">
+
+<h2>AddComment</h2>
+
+<div>
+    <h4>MovieModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.MovieID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MovieID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MovieName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MovieName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Image)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Image)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateOfRelease)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateOfRelease)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MPAA)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MPAA)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Duration)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Duration)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Category)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Rating)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rating)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ActorID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ActorID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DirectorID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DirectorID)
+        </dd>
+
+    </dl>
+</div>
+@using (Html.BeginForm("AddNewComment", "Home", new { id = Model.MovieID }, FormMethod.Post))
+{<label>Add New Comment :</label>
+    <div class="form-group">
+        <div class="col-md-10">
+            <textarea name="Comment" id="Comment"></textarea>
+        </div>
+    </div>
+    <button type="submit"><span>Add Comment</span></button>
+    <br>
+    <br>
+}
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

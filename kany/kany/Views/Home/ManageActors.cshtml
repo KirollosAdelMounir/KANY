@@ -1,0 +1,74 @@
+﻿@model IEnumerable<kany.Models.ActorsModel>
+
+@{
+    ViewBag.Title = "ManageActors";
+}
+
+<h2>ManageActors</h2>
+<link rel="stylesheet" href="~/Content/main.css">
+
+<p>
+    @Html.ActionLink("Create New", "AddActor","Home")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ActorId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ActorName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateOfBirth)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Gender)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nationality)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.City)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ContactNumber)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        using (Html.BeginForm("DeleteActor", "Home", new { id = item.ActorId }))
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ActorId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ActorName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateOfBirth)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nationality)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.City)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContactNumber)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "ActorDetails", new {  id=item.ActorId  }) |
+                <input type="submit" value="Delete" onclick="return confirm('Are you sure you want to delete record with ID = @item.ActorId');" />
+            </td>
+        </tr>
+        }
+    }
+
+</table>

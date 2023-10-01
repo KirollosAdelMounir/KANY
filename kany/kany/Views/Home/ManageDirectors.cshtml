@@ -1,0 +1,73 @@
+﻿@model IEnumerable<kany.Models.DirectorsModel>
+
+@{
+    ViewBag.Title = "ManageDirectors";
+}
+<link rel="stylesheet" href="~/Content/main.css">
+
+<h2>ManageDirectors</h2>
+
+<p>
+    @Html.ActionLink("Create New", "AddDirector","Home")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DirectorId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DirectorName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateOfBirth)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Gender)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nationality)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.City)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ContactNumber)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        using (Html.BeginForm("DeleteDirector", "Home", new { id = item.DirectorId }))
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DirectorId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DirectorName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateOfBirth)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Gender)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nationality)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.City)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ContactNumber)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Details", "DirectorDetails", new {  id=item.DirectorId  }) |
+                    <input type="submit" value="Delete" onclick="return confirm('Are you sure you want to delete record with ID = @item.DirectorId');" />
+                </td>
+            </tr>
+        }
+    }
+</table>

@@ -1,0 +1,93 @@
+﻿@model IEnumerable<kany.Models.MovieModel>
+
+@{
+    ViewBag.Title = "ShowMovies";
+}
+<link rel="stylesheet" href="~/Content/main.css">
+
+<h2>ShowMovies</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MovieID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MovieName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Image)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateOfRelease)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MPAA)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Duration)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Category)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Rating)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ActorID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DirectorID)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        using (Html.BeginForm("DeleteMovie", "Home", new { id = item.MovieID }))
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MovieID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MovieName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Image)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateOfRelease)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MPAA)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Duration)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rating)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ActorID)
+                @Html.ActionLink("Details", "ActorDetails", new { id = item.ActorID })
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DirectorID)
+                @Html.ActionLink("Details", "DirectorDetails", new { id = item.DirectorID })
+            </td>
+            <td>
+                @Html.ActionLink("Add Comment", "AddComment", new {  id=item.MovieID }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                <input type="submit" value="Delete" onclick="return confirm('Are you sure you want to delete record with ID = @item.MovieID');" />
+            </td>
+        </tr>
+        }
+    }
+</table>

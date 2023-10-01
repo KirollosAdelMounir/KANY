@@ -1,0 +1,223 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Styles.Render("~/Image")
+
+    <!--<link rel="stylesheet" href="~/Content/main.css">  -->
+    <link rel="stylesheet" href="~/Content/media_query.css">
+    <link rel="stylesheet" href="~/Content/variable.css">
+    <link rel="stylesheet" href="~/Content/reset.css">
+    <link rel="stylesheet" href="~/Image">
+
+    <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900"
+          rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+          rel="stylesheet" />
+    <link rel="shortcut icon"
+          href="~/Image/icon.jfif"
+          type="image/png" />
+
+</head>
+<body>
+
+    <!--
+      - #HEADER SECTION
+    -->
+
+    <header class="">
+        <div class="navbar">
+            <!--
+              - menu button for small screen
+            -->
+            <button class="navbar-menu-btn">
+                <span class="one"></span>
+                <span class="two"></span>
+                <span class="three"></span>
+            </button>
+
+
+            <a href="#" class="navbar-brand">
+
+                <img src="~/Image/logo.jpeg" alt="" />
+            </a>
+
+            <!--
+              - navbar navigation
+            -->
+
+            <nav class="">
+                <ul class="navbar-nav">
+                    <li>
+                        <button><a class="navbar-link">@Html.ActionLink("Home", "Index", "Home")</a></button></li>
+                    <li><button><a href="#category" class="navbar-link">Category</a></button></li>
+                </ul>
+
+
+
+                <!--
+      - search and sign-in
+    -->
+
+                <div class="navbar-actions">
+                    <form action="Search" method="post" class="navbar-form">
+                        <input type="text"
+                               name="search"
+                               id="search"
+                               placeholder="I'm looking for..."
+                               class="navbar-form-search"
+                               />
+
+                        <button class="navbar-form-btn" type="submit">
+                            <ion-icon name="search-outline" ></ion-icon>
+                        </button>
+
+                        <button class="navbar-form-close">
+                            <ion-icon name="close-circle-outline"></ion-icon>
+                        </button>
+                    </form>
+
+                    <!--
+      - search button for small screen
+
+    -->
+
+                    <button class="navbar-search-btn">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </button>
+                    @if (Session["username"] != null)
+                    {
+                        <button>
+                            <a class="navbar-signin">
+                                <span>@Html.ActionLink("Logout", "Logout", "Home")</span>
+                                <ion-icon name="log-in-outline"></ion-icon>
+                            </a>
+                        </button>
+                        <button class="navbar-profile-btn">
+                            <ion-icon name="profile-outline"></ion-icon>
+                        </button>
+                        <button>
+                            <a href="profile.html" class="navbar-profile">
+                                <span>@Html.ActionLink(Session["username"].ToString(), "Profile", "Home")</span>
+                                <ion-icon name="profile-outline"></ion-icon>
+                            </a>
+                        </button>
+
+                        <div class="profile-container">
+                            <img class="profile-picture"
+                                 src="~/Image/vikins.jpg"
+                                 alt="" />
+                            <div class="profile-text-container">
+                                <i class="fas fa-caret-down"></i>
+                            </div>
+                            <div class="toggle">
+                                <i class="fas fa-moon toggle-icon"></i>
+                                <i class="fas fa-sun toggle-icon"></i>
+                                <div class="toggle-ball"></div>
+                            </div>
+                        </div>
+                        <button>
+                            <a href="profile.html" class="navbar-profile">
+                                <span>@Html.ActionLink("Account Settings", "AccountSettings", "Home")</span>
+                                <ion-icon name="profile-outline"></ion-icon>
+                            </a>
+                        </button>
+                    }
+                    else
+                    {
+                        <a class="navbar-signin">
+                            <span>@Html.ActionLink("Login", "Login", "Home")</span>
+                            <ion-icon name="log-in-outline"></ion-icon>
+                        </a>
+                    }
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--
+             - FOOTER SECTION
+           -->
+    @RenderBody()
+    <footer>
+        <div class="footer-content">
+
+            <div class="footer-brand">
+                <span class="title"><a href="index.html">Kanymovies</a></span>
+                <p class="slogan">
+                    Movies & TV Shows, Online cinema, Movie database HTML Template.
+                </p>
+
+                <div class="social-link">
+                    <a href="#">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                    <a href="#">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                    <a href="#">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                    <a href="#">
+                        <ion-icon name="logo-tiktok"></ion-icon>
+                    </a>
+                    <a href="#">
+                        <ion-icon name="logo-youtube"></ion-icon>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <ul>
+                    <h4 class="link-heading">KANY Movie</h4>
+
+                    <li class="link-item"><a href="#">About us</a></li>
+                    <li class="link-item"><a href="#">My profile</a></li>
+                    <li class="link-item"><a href="#">Pricing plans</a></li>
+                    <li class="link-item"><a href="#">Contacts</a></li>
+                </ul>
+
+                <ul>
+                    <h4 class="link-heading">Help</h4>
+
+                    <li class="link-item"><a href="#">Account & Billing</a></li>
+                    <li class="link-item"><a href="#">Plans & Pricing</a></li>
+                    <li class="link-item"><a href="#">Supported devices</a></li>
+                    <li class="link-item"><a href="#">Accessibility</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-copyright">
+            <div class="copyright">
+                <p>&copy; @DateTime.Now.Year - copyright 2021 KANY Movie</p>
+            </div>
+
+            <div class="wrapper">
+                <a href="#">Privacy policy</a>
+                <a href="#">Terms and conditions</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <script type="module"
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!--
+      - custom js link
+    -->
+    <script src="~/Scripts/main.js"></script>
+    <script src="~/Scripts/script.js"></script>
+
+</body>
+</html>

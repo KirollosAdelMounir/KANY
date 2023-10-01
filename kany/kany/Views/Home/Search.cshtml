@@ -1,0 +1,66 @@
+﻿@model kany.Models.SearchModel
+
+@{
+    ViewBag.Title = "Search";
+}
+
+<h2>Search</h2>
+
+<div>
+    <h4>SearchModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ActorId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ActorId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ActorName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ActorName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DirectorId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DirectorId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DirectorName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DirectorName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MovieId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MovieId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MovieName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MovieName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,171 @@
+﻿@model kany.Models.UserModel
+@{
+    ViewBag.Title = "Profile";
+}
+<link rel="stylesheet" href="~/Content/main.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon"
+          href="~/Image/icon.jfif"
+          type="image/png" />
+    <title>My Profile</title>
+
+    
+</head>
+
+<body>
+    <!--
+      - main container
+    -->
+    <div class="container">
+        
+        <!-- profile -->
+        <div class="container">
+            <div class="content-container">
+                <div class="featured-content">
+                    @if (Model.Image != null)
+                    {
+                        <div class="image-size">
+                            <img src="~/images/profiles/@Model.Image" alt="error" class="img-responsive image-center" width="300" height="400"  />
+                        </div>
+                    }
+                    else
+                    {
+                        <img src="~/images/profiles/no-user.png" />
+
+                    }
+                    <p class="featured-desc">@Session["username"].ToString()</p>
+                </div>
+
+                <!-- favorite movies -->
+                <div class="movie-list-container">
+                    <h1 class="movie-list-title">Favorite Movies</h1>
+                    <div class="movie-list-wrapper">
+                        <div class="movie-list">
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img"
+                                     src="~/Image/movies/red-notice.jpg"
+                                     alt="" />
+                                <span class="movie-list-item-desc">Red Notice</span>
+                                <button class="movie-list-item-button"
+                                        onclick="window.location.href = 'movie.html';">
+                                    watch
+                                </button>
+                            </div>
+
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img"
+                                     src="~/Image/movies/spider-men.jpg"
+                                     alt="" />
+                                <span class="movie-list-item-desc">spider men</span>
+                                <button class="movie-list-item-button">Watch</button>
+                            </div>
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img"
+                                     src="~/Image/movies/matrix.jpg"
+                                     alt="" />
+                                <span class="movie-list-item-desc">Matrix Resurrections</span>
+                                <button class="movie-list-item-button">Watch</button>
+                            </div>
+
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img"
+                                     src="~/Image/movies/shang-chi.jpg"
+                                     alt="" />
+                                <span class="movie-list-item-desc">Shang-Chi and The Legend of The Ten Rings</span>
+                                <button class="movie-list-item-button">Watch</button>
+                            </div>
+
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img"
+                                     src="~/Image/movies/panther.jpg"
+                                     alt="" />
+                                <span class="movie-list-item-desc">Black Panther</span>
+                                <button class="movie-list-item-button">Watch</button>
+                            </div>
+
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img"
+                                     src="~/Image/movies/LOTR.jpg"
+                                     alt="" />
+                                <span class="movie-list-item-desc">Lord Of The Rings: Return Of The King</span>
+                                <button class="movie-list-item-button">Watch</button>
+                            </div>
+
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img"
+                                     src="~/Image/movies/saving-private-ryan.jpg"
+                                     alt="" />
+                                <span class="movie-list-item-desc">Saving Private Ryan</span>
+                                <button class="movie-list-item-button">Watch</button>
+                            </div>
+                        </div>
+                        <i class="fas fa-chevron-right arrow"></i>
+                    </div>
+                </div>
+
+                <!-- favorite directors -->
+                <div class="movie-list-container">
+                    <h1 class="movie-list-title">Fav Directors</h1>
+                    <div class="movie-list-wrapper">
+                        <div class="movie-list">
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img"
+                                     src="~/Image/cast/director1.jfif"
+                                     alt="" />
+                                <span class="movie-list-item-desc">Rawson Marshall</span>
+                                <button class="movie-list-item-button">Watch</button>
+                            </div>
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img" src="~/Image/movies/ww84.jpg" alt="" />
+                                <span class="movie-list-item-desc">Her</span>
+                                <button class="movie-list-item-button">Watch</button>
+                            </div>
+                        </div>
+                        <i class="fas fa-chevron-right arrow"></i>
+                    </div>
+                </div>
+
+                <!-- favorite actors -->
+                <div class="movie-list-container">
+                    <h1 class="movie-list-title">Fav Actors</h1>
+                    <div class="movie-list-wrapper">
+                        <div class="movie-list">
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img"
+                                     src="~/Image/cast/cast2.jpg"
+                                     alt="" />
+                                <span class="movie-list-item-desc">Gal Gadot</span>
+                                <button class="movie-list-item-button">Watch</button>
+                            </div>
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img"
+                                     src="~/Image/cast/cast1.jfif"
+                                     alt="" />
+                                <span class="movie-list-item-desc">Dwayne Johnson</span>
+                                <button class="movie-list-item-button">Watch</button>
+                            </div>
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img"
+                                     src="~/Image/cast/cast3.jpg"
+                                     alt="" />
+                                <span class="movie-list-item-desc">ryan reynolds</span>
+                                <button class="movie-list-item-button">Watch</button>
+                            </div>
+                        </div>
+                        <i class="fas fa-chevron-right arrow"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- favorite actors
+          <script src="app.js"></script>
+        -->
+        <!--- FOOTER SECTION-->
+</body>
+</html>
+
